@@ -42,7 +42,7 @@ float humidity;
 void setup()
 {
   Serial.begin(9600);
-  Serial.println(F("Welcome to EMERGENCY CED Temperature control system"));
+  Serial.println(F("Welcome to IT Room Temperature control system"));
 
   dht.begin();
 
